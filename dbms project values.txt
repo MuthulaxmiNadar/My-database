@@ -1,0 +1,106 @@
+/*airforcedata.SQL                                 	*/
+/* This script file creates the data for the following tables:	*/
+/* command,war,award,officer,airmen,health_officer,weapons,participates,isawarde*/
+
+
+/* command rows						*/
+insert into command values('Western Air Command','Delhi' );
+insert into command values('South Western Air Command','Gandhinagar');
+insert into command values('Central Air Command ',' Allahabad');
+insert into command values('Eastern Air Command','Shillong');
+insert into command values('Southern Air Command','Thiruvananthapuram');
+insert into command values('Training Command','Bengaluru');
+insert into command values('Maintainance Command','Nagpur');
+
+/* war rows	
+insert into war values('First Kashmir War ','Kashmir','1947');
+insert into war values('Second Kashmir War','Kashmir','1965');
+insert into war values('Bangladesh Liberation War',Bangladesh' ','1971');
+insert into war values('Operation Meghdoot',' Siachen Glacier','1984');
+insert into war values('Kargil War ','Kargil','1999');
+insert into war values('Operation Poomalai ','Sri-lanka','1987');
+
+/* award rows	
+insert into award values('Param Veer Chakra','1972');
+insert into award values('Vayusena Medal','1981');
+insert into award values('Parakram Padak','1965');
+insert into award values('Raksha Medal','1997');
+insert into award values('Special Service Medal','1965');
+insert into award values('Meritorious Service Medal','1953');
+insert into award values('30 Years Long Service Medal','1989');
+insert into award values('20 Years Long Service Medal','1993');
+insert into award values('Long Service and Good Conduct Medal','1984');
+insert into award values('Sarvottam Yudh Seva Medal','1963');
+
+/* officer rows	
+insert into officer values('10877','Nirmal Jit Singh Sekhon','7245698157','6.4','90 kgs','Central Air Command');
+insert into officer values('12899','Rajesh Kumar','9852476315','6','85 kgs','South Western Air Command');
+insert into officer values('16772','Rajiv Dayal Mathur','9754654474','5.9','94kgs','Eastern Air Command');
+insert into officer values('16806','Amit Tiwari','7546812599','5.8','87kgs','Southern Air Command');
+insert into officer values('35471','Bipin Rawat','8547968546','6.2','95','Southern Air Command');
+insert into officer values('16206','Balakrishanan Suresh','8564564785','6.1','89kgs','Western Air Command');
+insert into officer values('18347','Pattacheruvanda Chengappa Thimayya','9875879879','6.3','95kgs','Training Command');
+insert into officer values('18645','Pawan Kapoor',8795785467','5.8','83kgs','Maintainance Command');
+insert into officer values('18016','Dr. Sandeep Vaishya','98546+75894','5.5','80kgs','Training Command');
+insert into officer values('13701','Dr. Naresh Trehan','8546987548','5.5','82kgs','Maintainance Command');
+insert into officer values('15214','Dr. Ajay Kaul ','7568945899','5.7','83kgs','Southern Air Command');
+insert into officer values('16212','Dr. Sanjay Sharma','8974567485','5.8','89kgs','Eastern Air Command');
+insert into officer values('18521','Dr. Rakesh Mahajan','78548954778','5.7','87kgs','Western Air Command');
+insert into officer values('17521','Dr. Pradeep Sharma','857474875','6','88kgs','Central Air Command');
+
+/* airmen rows	
+insert into airmen values('16206','Air Marshal','Maharashtra');
+insert into airmen values('16772','Air Marshal','Sikkim');
+insert into airmen values('10877','Air Marshal','Delhi');
+insert into airmen values('12899','Air Marshal','kashmir');
+insert into airmen values('18347','General','Nagpur');
+insert into airmen values('18645','Chief','Delhi');
+
+/* health_officer rows	
+insert into health_officer values('18016','Physician');
+insert into health_officer values('13701','Neurologist');
+insert into health_officer values('15214','Rheumatologist');
+insert into health_officer values('16212','Physician');
+insert into health_officer values('18521','Anesthesiologist');
+insert into health_officer values('17521','Neurologist');
+
+/* weapons rows	
+insert into weapons values(' MiG-21',' Mikoyan-Gurevich','Multirole','flying','16772');
+insert into weapons values('EMB-145','Embraer ','AEWC','flying','12899');
+insert into weapons values(' MiG-29',' Mikoyan','Multirole','flying','16806');
+insert into weapons values('Mil Mi-17','Mil Mi','Utility','flying','35471');
+insert into weapons values('Mil Mi-26','Mil Mi','Attck','flying','18347');
+insert into weapons values('Dornier Do 228','Dornier Do','Reconnaissance','flying','18645');
+insert into weapons values('AGN-65','Air to Surface Missile','Multirole','air-to-surface','16206');
+
+/* participates rows	
+insert into participates values('Bangladesh Liberation War','10877');
+insert into participates values('Kargil War','12899');
+insert into participates values('Operation Meghdoot','16206');
+insert into participates values('First Kashmir War','16772');
+insert into participates values('Second Kashmir War','12899');
+insert into participates values('Kargil War ','16206');
+insert into participates values('Second Kashmir War','16772');
+
+/* isAwarded rows	
+insert into isAwarded values('10877','Vayusena Medal');
+insert into isAwarded values('12899','30 Years Long Service Medal');
+insert into isAwarded values('16806','Special Service Medal');
+insert into isAwarded values('18347','Parakram Padak');
+insert into isAwarded values('35471','Meritorious Service Medal');
+insert into isAwarded values('16806','20 Years Long Service Medal');
+insert into isAwarded values('12899','Long Service and Good Conduct Medal');
+insert into isAwarded values('16772','Parakram Padak');
+
+
+
+
+
+
+
+
+
+
+
+
+
