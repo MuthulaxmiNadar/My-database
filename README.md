@@ -1,2 +1,2 @@
-# My-database
-My first DBMS project
+# My-database project
+Airforce DBMS
