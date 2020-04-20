@@ -65,13 +65,13 @@ insert into health_officer values('18521','Anesthesiologist');
 insert into health_officer values('17521','Neurologist');
 
 /* weapons rows	
-insert into weapons values(' MiG-21',' Mikoyan-Gurevich','Multirole','flying','16772');
-insert into weapons values('EMB-145','Embraer ','AEWC','flying','12899');
-insert into weapons values(' MiG-29',' Mikoyan','Multirole','flying','16806');
-insert into weapons values('Mil Mi-17','Mil Mi','Utility','flying','35471');
-insert into weapons values('Mil Mi-26','Mil Mi','Attck','flying','18347');
-insert into weapons values('Dornier Do 228','Dornier Do','Reconnaissance','flying','18645');
-insert into weapons values('AGN-65','Air to Surface Missile','Multirole','air-to-surface','16206');
+insert into weapons values(' MiG-21',' Mikoyan-Gurevich','Multirole','flying');
+insert into weapons values('EMB-145','Embraer ','AEWC','flying');
+insert into weapons values(' MiG-29',' Mikoyan','Multirole','flying');
+insert into weapons values('Mil Mi-17','Mil Mi','Utility','flying');
+insert into weapons values('Mil Mi-26','Mil Mi','Attck','flying');
+insert into weapons values('Dornier Do 228','Dornier Do','Reconnaissance','flying');
+insert into weapons values('AGN-65','Air to Surface Missile','Multirole','air-to-surface');
 
 /* participates rows	
 insert into participates values('Bangladesh Liberation War','10877');
@@ -92,6 +92,14 @@ insert into isAwarded values('16806','20 Years Long Service Medal');
 insert into isAwarded values('12899','Long Service and Good Conduct Medal');
 insert into isAwarded values('16772','Parakram Padak');
 
+insert into uses values('18016',' MiG-21');
+insert into uses values('15214','Mil Mi-17');
+insert into uses values('17521','Dornier Do 228');
+insert into uses values('18347','Mil Mi-26');
+insert into uses values('10877','Mil Mi-17');
+insert into uses values('12899','Dornier Do 228');
+insert into uses values('17521','AGN-65');
+insert into uses values('15214','Mil Mi-26');
 
 
 
