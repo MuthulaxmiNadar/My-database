@@ -1,5 +1,5 @@
 /* This script file creates the following tables:	*/
-/* officer,command,equipments,medicine,war,locations,airmen,health_dep  */
+/* officer,command,equipments,medicine,war,locations,airmen,health_dep,uses*/
 
 
 
@@ -37,11 +37,9 @@ primary key(officer_id)
 create table weapons(
 weapon_id varchar(50) not null,
 weapon_name varchar(30) not null,
-type integer(50) not null,
+price integer(50) not null,
 mode varchar(50) not null,
-officer_id integer,
-primary key (weapon_id),
-constraint fk_weapons_airmen foreign key(officer_id) references airmen(officer_id) on delete cascade
+primary key (weapon_id)
 );
 
 create table war(
@@ -78,3 +76,10 @@ constraint fk_isAwarded_award foreign key(award_name) references award(award_nam
 constraint fk_isAwarded_officer foreign key(officer_id) references officer(officer_id) on delete cascade
 );
 
+create table uses(
+officer_id integer,
+weapon_id varchar(50),
+constraint fk_uses_airmen foreign key(weapon_id) references weapons(weapon_id) on delete cascade,
+constraint fk_uses_officer foreign key(officer_id) references officer(officer_id) on delete cascade
+
+);
