@@ -1,6 +1,6 @@
 # AIRFORCE DBMS
 
-Entity Sets
+#Entity Sets
 
 officer (officer _id, officer _name, officer_contact height,weight)
 
@@ -18,7 +18,7 @@ Two officer entity sets:  airmen and health_officer
 	health_officer (specialization)
   
   
-Relationship Sets
+#Relationship Sets
 
 belongs  1:N command with officer, both total
 
@@ -29,7 +29,7 @@ participates M:N airmen with war airmen total, war partial
 is awarded  M:N officers with award, officers total, reward partial
 
 
-Relational Model-Schema
+#Relational Model-Schema
 
 officer (officer _id, officer _name, officer_contact, height, weight, c_name*)
 
@@ -40,9 +40,6 @@ command(command_name, headquarter)
 war(war_name ,war_year)
 
 award(award_name, awarding_year)
-
-
-Relational Model-Schema
 
 participates(officer_id*, war_name*)
 
